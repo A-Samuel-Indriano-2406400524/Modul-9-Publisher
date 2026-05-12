@@ -7,3 +7,8 @@
 
 ### Runnning RabbitMQ Screenshot
 ![running-rabbitmq](tutorial8/publisher/images/running-rabbitmq.png)
+
+### Sending and Processing Event
+![event-processing-terminal](tutorial8/publisher/images/event-processing-terminal.png)
+
+Ketika publisher dijalankan, program mengirim 5 event ke RabbitMQ. Event tersebut kemudian diterima dan diproses oleh subscriber, yang terlihat dari terminal subscriber yang menampilkan message untuk Amir, Budi, Cica, Dira, dan Emir.
