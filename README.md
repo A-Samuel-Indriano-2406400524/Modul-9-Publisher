@@ -12,3 +12,8 @@
 ![event-processing-terminal](tutorial8/publisher/images/event-processing-terminal.png)
 
 Ketika publisher dijalankan, program mengirim 5 event ke RabbitMQ. Event tersebut kemudian diterima dan diproses oleh subscriber, yang terlihat dari terminal subscriber yang menampilkan message untuk Amir, Budi, Cica, Dira, dan Emir.
+
+### Monitoring Chart Based on Publisher
+![publisher-message-rate-spike](tutorial8/publisher/images/publisher-message-rate-spike.png)
+
+Spike pada chart RabbitMQ muncul saat publisher dijalankan berulang. Setiap kali publisher mengirim event ke message broker, grafik message rates naik sesaat kemudian turun lagi setelah event diterima dan diproses oleh subscriber.
